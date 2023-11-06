@@ -28,6 +28,7 @@ int main(void)
             }
         }
     }
-
     printf("중앙값 : %d \n", num[2]);
+
+    return 0;
 }
