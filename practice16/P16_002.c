@@ -13,10 +13,10 @@ int main(void)
 
     printf("초기값: num = %d, ptr = %p \n", num, ptr);
 
-    (*ptr)++;
+    (*ptr)++;       // *ptr, ptr이 가리키는 값 num의 값을 증가시킨다.
     printf("(*ptr)++ 적용 후: num = %d, ptr = %p \n", num, ptr);
 
-    *ptr++;
+    *ptr++;         // *(ptr++)로 해석해야 함. 포인터 값의 위치를 변경함.
     printf("*ptr++ 적용 후: num = %d, ptr = %p \n", num, ptr);
 
     return 0;
